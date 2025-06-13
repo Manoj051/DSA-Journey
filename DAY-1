@@ -1,0 +1,79 @@
+Sure! Here's your `README.md` content in proper GitHub-flavored Markdown code block format, so you can copy and paste it directly into your repository:
+
+<pre lang="markdown">
+```markdown
+## 📘 Day 1 - DSA Learning Journey
+
+Welcome to my DSA journey! This is a log of what I learned and practiced on **Day 1**, focusing on building a strong foundation in **Arrays** and **Two Pointer** techniques.  
+Target: 📌 Crack DSA interviews at top product-based companies.
+
+---
+
+### 📅 Date:13-06-2025
+
+`Day 1`
+
+---
+
+## ✅ Topics Covered
+
+* ✅ Array Basics  
+* ✅ Finding Maximum Element in Array  
+* ✅ Second Largest Element  
+* ✅ Removing Duplicates from Sorted Array  
+* ✅ Two Pointers (Introduction)  
+* ✅ Moving Zeros to End  
+* ✅ Sliding Window (Fixed Size)  
+* ✅ Time and Space Complexity Analysis  
+* ✅ Built First LeetCode Medium Solution (Two Sum II)
+
+---
+
+## 🧠 Key Concepts Learned
+
+| Concept                 | Description                                                                                |
+| ----------------------- | ------------------------------------------------------------------------------------------ |
+| **Time Complexity**     | Learned how to estimate time taken by loops. Eg: `O(n)`, `O(n²)`, dropping constants, etc. |
+| **Space Complexity**    | Understood in-place updates vs extra space.                                                |
+| **Two Pointer Pattern** | Used to solve problems efficiently when array is sorted or requires pairing logic.         |
+| **Sliding Window**      | Learned fixed window technique for subarray/sum problems.                                  |
+| **Edge Case Handling**  | Added array size checks, Integer.MIN\_VALUE checks, etc.                                   |
+| **Dry Running**         | Practiced stepping through loop iterations manually to debug logic.                        |
+| **Confidence Building** | Solved multiple array problems without copying — built logic from scratch.                 |
+
+---
+
+## 💻 Problems Solved
+
+| Problem                    | Pattern          | Link                                                                              |
+| -------------------------- | ---------------- | --------------------------------------------------------------------------------- |
+| Find Max in Array          | Simple loop      | N/A                                                                               |
+| Second Largest Element     | Tracking 2 maxes | N/A                                                                               |
+| Remove Duplicates (Sorted) | Two Pointers     | [LeetCode 26](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) |
+| Move Zeroes                | Two Pointers     | [LeetCode 283](https://leetcode.com/problems/move-zeroes/)                        |
+| Two Sum II (Sorted Input)  | Two Pointers     | [LeetCode 167](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)   |
+| Maximum Average Subarray   | Sliding Window   | [LeetCode 643](https://leetcode.com/problems/maximum-average-subarray-i/)         |
+| Container With Most Water  | Two Pointers     | [LeetCode 11](https://leetcode.com/problems/container-with-most-water/)           |
+
+---
+
+## 💡 Takeaways
+
+* Started as a beginner — now solving medium problems with guidance  
+* Built understanding of two-pointer logic and sliding window patterns  
+* Learned importance of writing dry runs and checking edge cases  
+* Realized that problems repeat with **patterns**  
+* Motivation: I can build my logic with effort, not just by copying  
+
+---
+
+## 🔜 Next Steps
+
+* 📚 Finish remaining array patterns (Binary Search on Answer, Prefix Sum, etc.)  
+* 🧪 Solve more Two Pointer + Sliding Window problems  
+* 💾 Start maintaining cheat sheets per topic  
+* ✅ Begin Strings & Hashing from Day 2
+```
+</pre>
+
+
