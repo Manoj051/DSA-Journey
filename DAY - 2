@@ -1,0 +1,52 @@
+**Day 2: Sliding Window, Variable Window & Hashing**
+
+Today I continued my DSA learning and focused on three main areas: the sliding window pattern (both fixed and variable), and hashing using arrays. I also revised Day 1 topics and applied my learning to solve real TCS NQT previous year questions.
+
+Topics Covered:
+
+1. Sliding Window - Fixed Size:
+   I practiced problems where we use a window of fixed size k, like finding the maximum sum of k consecutive elements in an array. Learned how to maintain the window sum efficiently in O(n) time instead of using nested loops.
+
+2. Sliding Window - Variable Size:
+   I learned how to dynamically adjust the window size based on a condition. Practiced problems like “Minimum Size Subarray Sum” where we shrink or grow the window depending on whether the sum is greater than or less than the target. Learned how to use two pointers to maintain the dynamic window.
+
+3. Hashing using Integer Arrays:
+   Learned how to simulate frequency maps using integer arrays for fast lookup. Used int\[] freq = new int\[26] to track character counts (especially useful for a-z characters). This was used in problems like character counting, sliding window for k replacements, and identifying anagrams.
+
+Revision and Practice:
+
+* Revised Day 1 concepts like arrays, two pointers, reversing strings, zero shifting, and Kadane’s algorithm.
+* Applied these to solve previous year TCS NQT problems and successfully solved:
+
+  * Shifting zeros to the end using two pointer pattern
+  * Maximum subarray sum using Kadane’s algorithm
+  * Counting Sundays using mapping and offset logic (a form of hashing)
+  * Palindrome check using two pointers
+  * Two Sum using both two pointer (for sorted) and hashmap (for unsorted)
+
+What I Learned Today:
+
+* Sliding window is extremely useful in optimization problems.
+* Variable sliding window is powerful for questions involving “minimum length” or “at most k”.
+* Frequency arrays are a fast and simple form of hashing when the range of elements is known (like characters).
+* I’m starting to understand how to match patterns to problem types based on keywords in the question.
+* Revisiting questions and solving them using patterns improves both accuracy and speed.
+
+Plan for Day 3:
+
+* Start with learning HashMap and HashSet and apply to problems involving duplicates, anagrams, and frequency matching.
+* Focus on sliding window problems involving characters and maps.
+* Continue practicing TCS and product-based company questions using learned patterns.
+
+Progress Snapshot:
+
+* Arrays: 80% covered
+* Strings: Started
+* Two Pointer: Strong grasp
+* Sliding Window: Fixed and variable well-practiced
+* Hashing using int arrays: Covered
+* HashMap/HashSet: To be started on Day 3
+
+Feeling more confident today. I'm able to apply patterns to solve real-world problems and company interview questions. Just need to keep going consistently.
+
+
