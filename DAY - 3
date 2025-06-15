@@ -1,0 +1,42 @@
+# 🧠 Day 3 - DSA Progress Log
+
+## 📅 Date: 15-06-2025
+
+---
+
+## ✅ What I Covered
+
+### 1. 🔁 Two Pointers – Revision
+- Revisited all core patterns.
+- Practiced problems like:
+  - Pair sum
+  - Palindrome check
+  - Merge sorted arrays
+
+### 2. 📐 Sliding Window – Fixed & Variable Size
+- **Fixed-size window:** Subarrays of constant length.
+- **Variable-size window:** Grew/shrunk window dynamically based on problem condition.
+- Understood **when to use `if` vs `while`**:
+  - Use `if` to **check a condition once** before expanding.
+  - Use `while` when the window needs to **shrink repeatedly** until condition is met.
+- Explored **limitations with negative numbers** in sliding window logic.
+
+### 3. ⚡ Kadane’s Algorithm
+- Revised for max subarray sum problems.
+- Clarified how it handles all-negative arrays.
+
+---
+
+## 🧠 Problems Attempted
+
+### 🔸 Hard: Minimum Substring with Sum ≥ K
+- **Approach:** Sliding window (variable size).
+- **Result:** Passed **80/98 test cases**.
+- **Stuck Point:** Couldn’t handle **negative numbers** using sliding window.
+- **Insight:** Standard sliding window fails for negative values; alternate methods like **prefix sum** or **monotonic deque** might be needed.
+
+### 🔸 Easy: Check if a Number is Power of Two
+- **Initial Approach:** Iterative division (TLE on large inputs).
+- **Optimized With:** Bitwise operation  
+  ```java
+  return n > 0 && (n & (n - 1)) == 0;
